@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #Day 14 Lesson 2. required for Heroku
+  config.action_mailer.default_url_options = { host: 'dlg-pinteresting.herokuapp.com' }
 end
