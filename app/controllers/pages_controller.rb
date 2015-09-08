@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def claims
   end
+
+  def people
+  end
 end
