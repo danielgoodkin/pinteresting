@@ -11,6 +11,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~>3.4.0'
 gem 'paperclip', '~> 4.2'
+gem 'aws-sdk', '~> 2'
 
 group :development, :test do
 	gem 'sqlite3'
@@ -33,4 +34,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
